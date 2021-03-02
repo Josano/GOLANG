@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	retorno := func(texto string) string {
-		return fmt.Sprintf("Recebido -> %s", texto, 10)
+		return fmt.Sprintf("Recebido -> %s", texto)
 	}("Passando Parâmetro")
 
 	fmt.Println(retorno)
